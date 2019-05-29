@@ -1,0 +1,39 @@
+{
+  "name": "n3-node-logger",
+  "version": "1.0.0",
+  "homepage": "https://github.com/kelexel/n3-node-logger",
+  "description": "A simple dynamic logging facility wrapper",
+  "keywords": [
+    "node",
+    "logger",
+    "debug",
+    "wrapper"
+  ],
+  "author": "Rudolph Sand <rudolph.sand@gmail.com>",
+  "contributors": [
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kelexel/n3-node-logger.git"
+  },
+  "bugs": {
+    "mail": "rudolph.sand@gmail.com",
+    "url": "https://github.com/kelexel/n3-node-logger/issues"
+  },
+  "scripts": {
+    "test": "echo \"Hrm, no tests yet :(\" && exit 1"
+  },
+  "main": "src/n3-node-logger.js",
+  "engine": {
+    "node": ">=4"
+  },
+  "readmeFilename": "README.md",
+  "directories": {
+    "src": "src"
+  },
+  "license": "MIT"
+}
