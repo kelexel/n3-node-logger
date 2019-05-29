@@ -1,6 +1,6 @@
 {
   "name": "n3-node-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/kelexel/n3-node-logger",
   "description": "A simple dynamic logging facility wrapper",
   "keywords": [

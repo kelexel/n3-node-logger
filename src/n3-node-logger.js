@@ -19,7 +19,16 @@ class NodeLogger {
   this._loggingFacility = false;
   }
   log(status, message) {
-    if (!this._loggingFacility) console.log(status, message);
+    if (!this._loggingFacility) {
+      if (status == 'ok' && console.log)
+        console.log(status, message);
+      else if (status == 'error' && console.error)
+        console.error(message);
+      else if (status == 'warn' && console.warn)
+        console.warn(message);
+      else
+        console.log(status, message);
+    }
     else {
       if (status == 'ok')
         this._loggingFacility(this._logOkPrefix+' | '+message);
